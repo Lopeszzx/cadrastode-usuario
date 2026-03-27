@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadrasto de usuario</title>
+    <style>
+        body{
+            background-color: rgb(56, 52, 55);
+            font-family: sans-serif;
+            margin: 0%;
+            padding: 30%;
+            text-align: center;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        label{
+            display: inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cadrasto completo de usuario</h2>
+    <form action="">
+<div>
+    <label for="nome">Nome:</label>
+    <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+    
+</div>
+<div>
+
+    <label for="email">e-mail:</label>
+    <input type="email" placeholder="Digite seu e-mail" required>
+
+</div>
+<div>
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+    <div>
+
+        <label for="tel">telefine</label>
+        <input type="tel" name="tel" id="tel" placeholder="(44)99888-8888">
+
+    </div>
+    <div>
+
+<label for="nasc">data de nacimento:</label>
+<input type="date" name="nasc" id="nasc">
+
+    </div>
+</div>
+<div>
+    <label>Genero</label>
+    <input type="radio" name="Genero" id="fem"value="feminino">
+    <label for="fem">Feminino</label>
+    <label>Genero</label>
+    <input type="radio" name="Genero" id="mas"value="Masculino">
+    <label for="mas">Masculino</label>
+</div>
+
+<button type="submit">Cadrastar-se</button>
+    </form>
+</body>
+</html>
